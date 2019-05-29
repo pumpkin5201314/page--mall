@@ -68,7 +68,7 @@ $(function(){
 	 	var self=$(this);
 	 	self.html('正在加载中').removeClass('cj').addClass('loading');
 	 	$.ajax({
-	 		 type:"post",
+	 		 type:"get",
 	 		 url:"./json/json.js",
 	 		 dataType:"json",
 	 		 success:function(data){

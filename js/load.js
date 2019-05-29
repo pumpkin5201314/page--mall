@@ -33,7 +33,7 @@ $(function(){
 				break
 			}
 			$.ajax({
-			type:"post",
+			type:"get",
 			url:url,
 			dataType:"json",
 			success:function(data){
